@@ -80,8 +80,20 @@
     "html_about_title": {
         "message": "About"
     },
+    "html_about_fork_beginning": {
+        "message": "Based on the original"
+    },
+    "html_about_fork_mid": {
+        "message": "available on GitHub, without ADS tracking (more information available on"
+    },
+    "html_about_fork_end": {
+        "message": ")"
+    },
     "html_about_github_title": {
         "message": "GitHub"
+    },
+    "html_about_blog_title": {
+        "message": "Blog"
     },
     "html_about_twitter_title": {
         "message": "Twitter"
