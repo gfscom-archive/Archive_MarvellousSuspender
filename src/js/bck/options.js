@@ -1,4 +1,4 @@
-/*global chrome, gsStorage, gsChrome, gsUtils */
+/*global chrome, gsAnalytics, gsStorage, gsChrome, gsUtils */
 (function(global) {
   try {
     chrome.extension.getBackgroundPage().tgs.setViewGlobals(global);
@@ -247,4 +247,5 @@
   global.exports = {
     initSettings,
   };
+  gsAnalytics.reportPageView('options.html');
 })(this);

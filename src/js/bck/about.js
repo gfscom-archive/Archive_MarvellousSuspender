@@ -1,4 +1,4 @@
-/* global chrome, XMLHttpRequest, gsStorage, gsUtils */
+/* global chrome, XMLHttpRequest, gsStorage, gsAnalytics, gsUtils */
 (function(global) {
   'use strict';
 
@@ -24,4 +24,5 @@
     }
   });
 
+  gsAnalytics.reportPageView('about.html');
 })(this);

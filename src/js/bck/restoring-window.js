@@ -1,4 +1,4 @@
-/*global chrome, gsUtils */
+/*global chrome, gsAnalytics, gsUtils */
 (function(global) {
   'use strict';
 
@@ -12,4 +12,5 @@
   gsUtils.documentReadyAndLocalisedAsPromsied(document).then(function() {
     //do nothing
   });
+  gsAnalytics.reportPageView('restoring-window.html');
 })(this);
