@@ -30,7 +30,7 @@ Be sure to unsuspend all suspended tabs before removing any other version of the
 
 Contributions are very welcome. Feel free to submit pull requests for new features and bug fixes. For new features, ideally you would raise an issue for the proposed change first so that we can discuss ideas. This will go a long way to ensuring your pull request is accepted.
 
-### Localization (l1on)
+### Localization (l10n)
 
 Feel free to help me to localize this extension in any language, you can do it using Crowdin connecting to https://crowdin.com/project/tms. If your mothertongue language is not available please "ping me" on [Twitter](https://twitter.com/Gioxx) or [submit a feature request](https://github.com/gioxx/MarvellousSuspender/issues/).
 
